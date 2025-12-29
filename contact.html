@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Contact – Yuanno Digital</title>
+</head>
+
+<body class="services-page contact-page">
+  <header>
+    <a href="index.html" class="logo">Yuanno digital</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about-us.html">About us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="services-main">
+    <section class="services-section services-hero">
+      <div class="services-hero-layout">
+        <div class="services-hero-text">
+          <p class="services-eyebrow">Contact</p>
+          <h1 class="services-hero-title">Tell us what you need — we’ll suggest a simple solution.</h1>
+          <p class="services-hero-body">
+            Send a message with your business type and what you want to improve (website, automation, bookings, etc.).
+            We’ll reply with a clear next step.
+          </p>
+        </div>
+        <div class="services-hero-image">
+          <img src="logo.png" alt="Yuanno Digital logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section" id="contact-form">
+      <div class="contact-grid">
+        <article class="contact-card">
+          <h2>Message us</h2>
+          <form class="contact-form" action="#" method="post">
+            <label>
+              <span>Your name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+
+            <label>
+              <span>What do you need help with?</span>
+              <select name="topic" required>
+                <option value="" disabled selected>Select one</option>
+                <option>Digitalization (website, menu, booking)</option>
+                <option>Automation (forms, reminders, admin)</option>
+                <option>Optimization (speed, SEO, conversions)</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" placeholder="Briefly describe your business and the problem you want to solve..." required></textarea>
+            </label>
+
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </article>
+
+        <aside class="contact-side">
+          <div class="contact-info">
+            <h3>Quick details</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Belgium (Brussels)</p>
+            <p><i class="fa-solid fa-globe"></i> Online projects worldwide</p>
+            <p class="contact-note">
+            <p><strong>Phone: </strong> +32 485 13 34 41</p>
+            <p><strong>E-mail: </strong> information@yuanno.net</p>
+            </p>
+          </div>
+
+          <div class="contact-info">
+            <h3>What to include</h3>
+            <ul>
+              <li>Your business type (café, salon, shop, NGO…)</li>
+              <li>What you currently use (paper, Excel, WhatsApp…)</li>
+              <li>Your goal (more bookings, less admin, better visibility…)</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Company</h3>
+        <a href="about-us.html">About us</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms of use</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <a href="blog.html">Blog</a>
+        <a href="case-studies.html">Case studies</a>
+        <a href="faq.html">FAQs</a>
+      </div>
+
+      <div class="footer-col newsletter">
+        <h3>Join our newsletter</h3>
+        <form class="footer-form" action="#" method="post">
+          <input type="email" placeholder="Enter your email" aria-label="Email" />
+          <button type="submit">Sign up</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 Yuanno Digital. All rights reserved.</span>
+</div>
+  </footer>
+</body>
+</html>
