@@ -41,7 +41,7 @@
       <div class="contact-grid">
         <article class="contact-card">
           <h2>Message us</h2>
-          <form class="contact-form" action="#" method="post">
+          <form class="contact-form" action="https://formsubmit.co/ilias.aaouam@yuanno.net" method="POST">
             <label>
               <span>Your name</span>
               <input type="text" name="name" placeholder="Your name" required />
@@ -68,6 +68,12 @@
               <textarea name="message" rows="6" placeholder="Briefly describe your business and the problem you want to solve..." required></textarea>
             </label>
 
+            <!-- FormSubmit settings -->
+            <input type="hidden" name="_subject" value="Yuanno Digital — Contact form submission" />
+            <!-- Leave CAPTCHA enabled by default to reduce spam.
+                 If you really want to disable it, uncomment the next line:
+                 <input type="hidden" name="_captcha" value="false" /> -->
+
             <button class="btn" type="submit">Send</button>
           </form>
         </article>
@@ -79,7 +85,7 @@
             <p><i class="fa-solid fa-globe"></i> Online projects worldwide</p>
             <p class="contact-note">
             <p><strong>Phone: </strong> +32 485 13 34 41</p>
-            <p><strong>E-mail: </strong> information@yuanno.net</p>
+            <p><strong>E-mail: </strong> ilias.aaouam@yuanno.net</p>
             </p>
           </div>
 
@@ -121,8 +127,9 @@
 
       <div class="footer-col newsletter">
         <h3>Join our newsletter</h3>
-        <form class="footer-form" action="#" method="post">
-          <input type="email" placeholder="Enter your email" aria-label="Email" />
+        <form class="footer-form" action="https://formsubmit.co/ilias.aaouam@yuanno.net" method="POST">
+          <input type="email" name="email" placeholder="Enter your email" aria-label="Email" required />
+          <input type="hidden" name="_subject" value="Yuanno Digital — Newsletter signup" />
           <button type="submit">Sign up</button>
         </form>
       </div>
