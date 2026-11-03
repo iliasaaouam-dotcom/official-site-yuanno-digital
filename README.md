@@ -1,9 +1,10 @@
 # Dubsar
 
-A simple bilingual website for help with everyday paperwork, based on the original site's home / services / about / contact structure.
+A simple trilingual website for help with everyday paperwork, based on the original site's home / services / about / contact structure.
 
 - French: root HTML pages (`index.html`, `services.html`, `about-us.html`, `contact.html`, `privacy.html`).
-- Dutch: matching pages under `nl/`. The FR / NL links preserve the current page.
+- Dutch: matching pages under `nl/`.
+- English: matching pages under `en/`. The FR / NL / EN links preserve the current page.
 - Shared styling: `style.css`. No build, JavaScript, third-party fonts, analytics, or package installation required.
 
 ## Local development
@@ -14,7 +15,7 @@ From this checkout:
 python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
-Check that both language versions, navigation, local assets, phone links, and email links work. The service FAQ uses native HTML details elements and works without JavaScript.
+Check that all three language versions, navigation, local assets, phone links, and email links work. The service FAQ uses native HTML details elements and works without JavaScript.
 
 ## Contact
 
