@@ -1,154 +1,260 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-521R12LK31"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-521R12LK31');
-</script>
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <link rel="stylesheet" href="./style.css" />
-  <title>Contact – Yuanno Digital</title>
-</head>
-
-<body class="services-page contact-page">
-  <header>
-    <a href="index.html" class="logo">Yuanno digital</a>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About us</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html" class="active">Contact</a>
-    </nav>
-  </header>
-
-  <main class="services-main">
-    <section class="services-section services-hero">
-      <div class="services-hero-layout">
-        <div class="services-hero-text">
-          <p class="services-eyebrow">Contact</p>
-          <h1 class="services-hero-title">Tell us what you need — we’ll suggest a simple solution.</h1>
-          <p class="services-hero-body">
-            Send a message with your business type and what you want to improve (website, automation, bookings, etc.).
-            We’ll reply with a clear next step.
-          </p>
-        </div>
-        <div class="services-hero-image">
-          <img src="logo.png" alt="Yuanno Digital logo" />
-        </div>
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contactez Dubsar par téléphone au +32 485 13 34 41 ou par e-mail pour vos démarches administratives."
+    />
+    <meta name="theme-color" content="#f8f7f3" />
+    <title>Contact — Dubsar</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="alternate" hreflang="fr" href="contact.html" />
+    <link rel="alternate" hreflang="nl" href="nl/contact.html" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a href="index.html" class="brand" aria-label="Dubsar — Accueil"
+          ><svg
+            class="brand-mark"
+            viewBox="0 0 32 36"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M6 2h14l7 7v25H6z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M20 2v8h7M11 17h11M11 23h8"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            /></svg
+          ><span>dubsar<span class="brand-dot">.</span></span></a
+        >
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a><a href="services.html">Services</a
+          ><a href="about-us.html">À propos</a
+          ><a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <nav class="language-nav" aria-label="Choisir la langue">
+          <a
+            href="contact.html"
+            lang="fr"
+            hreflang="fr"
+            aria-label="FR — Français"
+            aria-current="true"
+            >FR</a
+          ><span aria-hidden="true">/</span
+          ><a
+            href="nl/contact.html"
+            lang="nl"
+            hreflang="nl"
+            aria-label="NL — Nederlands"
+            >NL</a
+          >
+        </nav>
       </div>
-    </section>
-
-    <section class="services-section" id="contact-form">
-      <div class="contact-grid">
-        <article class="contact-card">
-          <h2>Message us</h2>
-          <form class="contact-form" action="https://formsubmit.co/ilias.aaouam@yuanno.net" method="POST">
-            <label>
-              <span>Your name</span>
-              <input type="text" name="name" placeholder="Your name" required />
-            </label>
-
-            <label>
-              <span>Email</span>
-              <input type="email" name="email" placeholder="you@example.com" required />
-            </label>
-
-            <label>
-              <span>What do you need help with?</span>
-              <select name="topic" required>
-                <option value="" disabled selected>Select one</option>
-                <option>Digitalization (website, menu, booking)</option>
-                <option>Automation (forms, reminders, admin)</option>
-                <option>Optimization (speed, SEO, conversions)</option>
-                <option>Not sure yet</option>
-              </select>
-            </label>
-
-            <label>
-              <span>Message</span>
-              <textarea name="message" rows="6" placeholder="Briefly describe your business and the problem you want to solve..." required></textarea>
-            </label>
-
-            <!-- FormSubmit settings -->
-            <input type="hidden" name="_subject" value="Yuanno Digital — Contact form submission" />
-            <!-- Leave CAPTCHA enabled by default to reduce spam.
-                 If you really want to disable it, uncomment the next line:
-                 <input type="hidden" name="_captcha" value="false" /> -->
-
-            <button class="btn" type="submit">Send</button>
-          </form>
-        </article>
-
-        <aside class="contact-side">
-          <div class="contact-info">
-            <h3>Quick details</h3>
-            <p><i class="fa-solid fa-location-dot"></i> Belgium (Brussels)</p>
-            <p><i class="fa-solid fa-globe"></i> Online projects worldwide</p>
-            <p class="contact-note">
-            <p><strong>Phone: </strong> +32 485 13 34 41</p>
-            <p><strong>E-mail: </strong> ilias.aaouam@yuanno.net</p>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="page-intro container">
+        <p class="eyebrow">CONTACT</p>
+        <h1>Commençons par<br /><em>votre question.</em></h1>
+        <p class="lead">
+          Expliquez-nous brièvement ce qui vous pose problème. Nous verrons
+          ensemble comment vous aider.
+        </p>
+      </section>
+      <section class="contact-layout container section">
+        <div class="contact-methods">
+          <article class="contact-method">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="m5 3 4 1 1 5-3 2a15 15 0 0 0 6 6l2-3 5 1 1 4c-1 4-7 2-12-3S2 4 5 3Z"
+                /></svg
+            ></span>
+            <p class="eyebrow">Par téléphone</p>
+            <a class="contact-value" href="tel:+32485133441">+32 485 13 34 41</a
+            ><a class="text-link" href="tel:+32485133441"
+              >Appeler Dubsar<svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M4 12h15m-5-5 5 5-5 5" /></svg
+            ></a>
+          </article>
+          <article class="contact-method">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 6 9 7 9-7" /></svg
+            ></span>
+            <p class="eyebrow">Par e-mail</p>
+            <a
+              class="contact-value email-value"
+              href="mailto:ilias.aaouam@yuanno.net"
+              >ilias.aaouam@yuanno.net</a
+            ><a
+              class="text-link"
+              href="mailto:ilias.aaouam@yuanno.net?subject=Demande%20d%E2%80%99aide%20administrative%20%E2%80%94%20Dubsar"
+              >Écrire un e-mail<svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M4 12h15m-5-5 5 5-5 5" /></svg
+            ></a>
+            <p class="small-note">
+              Votre application de messagerie s’ouvrira. Aucun formulaire à
+              remplir sur ce site.
+            </p>
+          </article>
+        </div>
+        <aside class="prepare-card">
+          <p class="eyebrow">Bruxelles · Belgique</p>
+          <h2>Que nous dire ?</h2>
+          <ul>
+            <li>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m5 12 4 4L19 6" /></svg
+              ><span>Le type de démarche ou de courrier concerné.</span>
+            </li>
+            <li>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m5 12 4 4L19 6" /></svg
+              ><span>Ce que vous aimeriez comprendre ou préparer.</span>
+            </li>
+            <li>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="m5 12 4 4L19 6" /></svg
+              ><span
+                >Votre langue de préférence : français ou néerlandais.</span
+              >
+            </li>
+          </ul>
+          <div class="privacy-note">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M7 3h7l4 4v14H7z" />
+              <path d="M14 3v5h5M10 12h5m-5 4h5" />
+            </svg>
+            <p>
+              Pour un premier contact, n’envoyez pas de pièce d’identité, de
+              numéro de registre national ou d’autre document sensible.
             </p>
           </div>
-
-          <div class="contact-info">
-            <h3>What to include</h3>
-            <ul>
-              <li>Your business type (café, salon, shop, NGO…)</li>
-              <li>What you currently use (paper, Excel, WhatsApp…)</li>
-              <li>Your goal (more bookings, less admin, better visibility…)</li>
-            </ul>
-          </div>
         </aside>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a href="index.html" class="brand"
+              ><svg
+                class="brand-mark"
+                viewBox="0 0 32 36"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6 2h14l7 7v25H6z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20 2v8h7M11 17h11M11 23h8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg
+              ><span>dubsar<span class="brand-dot">.</span></span></a
+            >
+            <p>
+              Aide aux démarches administratives.<br />Français & Nederlands
+            </p>
+          </div>
+          <div class="footer-contact">
+            <a href="tel:+32485133441">+32 485 13 34 41</a
+            ><a href="mailto:ilias.aaouam@yuanno.net">ilias.aaouam@yuanno.net</a
+            ><span>Bruxelles · Belgique</span>
+          </div>
+          <nav aria-label="Navigation de pied de page">
+            <a href="services.html">Services</a
+            ><a href="about-us.html">À propos</a
+            ><a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Dubsar. Tous droits réservés.</span
+          ><a href="privacy.html">Confidentialité</a>
+        </div>
       </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-col">
-        <h3>Company</h3>
-        <a href="about-us.html">About us</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
-      </div>
-
-      <div class="footer-col">
-        <h3>Legal</h3>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms of use</a>
-        <a href="cookies.html">Cookies</a>
-      </div>
-
-      <div class="footer-col">
-        <h3>Resources</h3>
-        <a href="blog.html">Blog</a>
-        <a href="case-studies.html">Case studies</a>
-        <a href="faq.html">FAQs</a>
-      </div>
-
-      <div class="footer-col newsletter">
-        <h3>Join our newsletter</h3>
-        <form class="footer-form" action="https://formsubmit.co/ilias.aaouam@yuanno.net" method="POST">
-          <input type="email" name="email" placeholder="Enter your email" aria-label="Email" required />
-          <input type="hidden" name="_subject" value="Yuanno Digital — Newsletter signup" />
-          <button type="submit">Sign up</button>
-        </form>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <span>© 2025 Yuanno Digital. All rights reserved.</span>
-</div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

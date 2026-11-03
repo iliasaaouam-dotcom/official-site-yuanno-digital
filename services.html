@@ -1,233 +1,309 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <link rel="stylesheet" href="./style.css" />
-  <title>Services – Yuanno Digital</title>
-</head>
-
-<body class="services-page">
-  <header>
-    <a href="index.html" class="logo">Yuanno digital</a>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about-us.html">About us</a>
-      <a href="services.html" class="active">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <main class="services-main">
-    <!-- HERO -->
-    <section class="services-section services-hero" id="top">
-      <div class="services-hero-layout">
-        <div class="services-hero-text">
-          <p class="services-eyebrow">Our services</p>
-          <h1 class="services-hero-title">
-            Small-business tech that saves time, reduces stress, and looks professional.
-          </h1>
-          <p class="services-hero-body">
-            We help you move from paper and scattered WhatsApp messages to simple tools that your team actually uses.
-            Choose a small upgrade or a full workflow. We will build it, explain it, and support you after launch.
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Courriers, formulaires, dossiers et suivi : découvrez l’aide administrative proposée par Dubsar en français et en néerlandais."
+    />
+    <meta name="theme-color" content="#f8f7f3" />
+    <title>Services — Dubsar</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="alternate" hreflang="fr" href="services.html" />
+    <link rel="alternate" hreflang="nl" href="nl/services.html" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a href="index.html" class="brand" aria-label="Dubsar — Accueil"
+          ><svg
+            class="brand-mark"
+            viewBox="0 0 32 36"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M6 2h14l7 7v25H6z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M20 2v8h7M11 17h11M11 23h8"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            /></svg
+          ><span>dubsar<span class="brand-dot">.</span></span></a
+        >
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html">Accueil</a
+          ><a href="services.html" aria-current="page">Services</a
+          ><a href="about-us.html">À propos</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+        <nav class="language-nav" aria-label="Choisir la langue">
+          <a
+            href="services.html"
+            lang="fr"
+            hreflang="fr"
+            aria-label="FR — Français"
+            aria-current="true"
+            >FR</a
+          ><span aria-hidden="true">/</span
+          ><a
+            href="nl/services.html"
+            lang="nl"
+            hreflang="nl"
+            aria-label="NL — Nederlands"
+            >NL</a
+          >
+        </nav>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="page-intro container">
+        <p class="eyebrow">Services</p>
+        <h1>Un coup de main,<br /><em>concrètement.</em></h1>
+        <p class="lead">
+          Dubsar vous accompagne dans les petites et grandes démarches du
+          quotidien. Vous gardez la main ; nous vous aidons à faire le prochain
+          pas.
+        </p>
+      </section>
+      <section class="container section services-detail">
+        <div class="service-grid service-grid-full">
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 3h7l4 4v14H7z" />
+                <path d="M14 3v5h5M10 12h5m-5 4h5" /></svg
+            ></span>
+            <h2>Comprendre un courrier</h2>
+            <p>
+              Nous relisons votre lettre ensemble pour comprendre ce qui est
+              demandé et repérer les prochaines étapes.
+            </p>
+            <div class="service-example">
+              <span>Par exemple</span>Lettres, demandes d’informations,
+              documents administratifs.
+            </div>
+          </article>
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="4" y="3" width="16" height="18" rx="2" />
+                <path d="M8 8h1m3 0h4M8 12h1m3 0h4M8 16h1m3 0h4" /></svg
+            ></span>
+            <h2>Remplir un formulaire</h2>
+            <p>
+              Nous vous aidons à réunir les bonnes informations et à compléter
+              votre formulaire, étape par étape.
+            </p>
+            <div class="service-example">
+              <span>Par exemple</span>Formulaires papier ou en ligne,
+              préparation des pièces à joindre.
+            </div>
+          </article>
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M3 7V5h6l2 2h10v13H3z" />
+                <path d="M3 11h18" /></svg
+            ></span>
+            <h2>Mettre de l’ordre</h2>
+            <p>
+              Nous organisons vos documents et regardons avec vous ce qui manque
+              pour préparer votre dossier.
+            </p>
+            <div class="service-example">
+              <span>Par exemple</span>Classement, liste des documents utiles,
+              préparation d’un dossier.
+            </div>
+          </article>
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" /></svg
+            ></span>
+            <h2>Suivre une démarche</h2>
+            <p>
+              Nous vous aidons à garder une vue d’ensemble des échéances et à
+              préparer vos questions ou vos réponses.
+            </p>
+            <div class="service-example">
+              <span>Par exemple</span>Dates à retenir, demandes de suivi,
+              préparation d’un rendez-vous.
+            </div>
+          </article>
+        </div>
+        <aside class="scope-note">
+          <h2>Une aide pratique, en toute clarté.</h2>
+          <p>
+            Nous vous aidons à comprendre et à préparer vos démarches. Les
+            décisions restent entre les mains des organismes concernés. Si votre
+            demande nécessite un professionnel spécialisé, nous vous le
+            signalons.
           </p>
-
-          <div class="services-hero-cta">
-            <a class="btn" href="contact.html">Get a quote</a>
-            <a class="services-secondary-link" href="#packages">See packages</a>
+        </aside>
+      </section>
+      <section class="faq-section container section">
+        <h2>Quelques questions, tout simplement.</h2>
+        <div class="faq-list">
+          <details>
+            <summary>
+              Dans quelles langues pouvez-vous m’aider ?<span aria-hidden="true"
+                >+</span
+              >
+            </summary>
+            <p>
+              Nous proposons un accompagnement en français et en néerlandais.
+              Vous choisissez la langue dans laquelle vous êtes le plus à
+              l’aise.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Que dois-je préparer pour le premier contact ?<span
+                aria-hidden="true"
+                >+</span
+              >
+            </summary>
+            <p>
+              Décrivez simplement votre demande. Nous verrons ensuite quels
+              documents sont utiles. N’envoyez pas de documents sensibles lors
+              du premier échange.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Combien coûte l’accompagnement ?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Les modalités et le tarif sont à convenir avant de commencer,
+              selon votre demande. Contactez-nous pour en discuter.
+            </p>
+          </details>
+          <details>
+            <summary>
+              Pouvez-vous garantir le résultat de ma demande ?<span
+                aria-hidden="true"
+                >+</span
+              >
+            </summary>
+            <p>
+              Nous vous aidons à préparer et à suivre votre dossier. Nous ne
+              pouvons pas garantir une décision ou un délai de la part d’une
+              administration.
+            </p>
+          </details>
+        </div>
+      </section>
+      <div class="container">
+        <section class="contact-banner">
+          <div>
+            <h2>Un papier vous préoccupe ?</h2>
+            <p>
+              Pas besoin de tout savoir avant de nous contacter. Commençons par
+              votre question.
+            </p>
           </div>
+          <a class="button" href="contact.html"
+            >Prendre contact<svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M4 12h15m-5-5 5 5-5 5" /></svg
+          ></a>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a href="index.html" class="brand"
+              ><svg
+                class="brand-mark"
+                viewBox="0 0 32 36"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6 2h14l7 7v25H6z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20 2v8h7M11 17h11M11 23h8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg
+              ><span>dubsar<span class="brand-dot">.</span></span></a
+            >
+            <p>
+              Aide aux démarches administratives.<br />Français & Nederlands
+            </p>
+          </div>
+          <div class="footer-contact">
+            <a href="tel:+32485133441">+32 485 13 34 41</a
+            ><a href="mailto:ilias.aaouam@yuanno.net">ilias.aaouam@yuanno.net</a
+            ><span>Bruxelles · Belgique</span>
+          </div>
+          <nav aria-label="Navigation de pied de page">
+            <a href="services.html">Services</a
+            ><a href="about-us.html">À propos</a
+            ><a href="contact.html">Contact</a>
+          </nav>
         </div>
-
-        <div class="services-hero-image">
-          <img src="logo.png" alt="Yuanno Digital logo" />
+        <div class="footer-bottom">
+          <span>© 2026 Dubsar. Tous droits réservés.</span
+          ><a href="privacy.html">Confidentialité</a>
         </div>
       </div>
-    </section>
-
-    <!-- SERVICE CATEGORIES -->
-    <section class="services-section" id="services">
-      <header class="services-section-header">
-        <h2>What we can do for you</h2>
-        <p>
-          Three clear areas: pick one, or combine them into one clean system.
-        </p>
-      </header>
-
-      <div class="services-card-grid">
-        <article class="services-card">
-          <div class="services-icon"><i class="fa-solid fa-laptop-code"></i></div>
-          <h3>Digitalization</h3>
-          <p>
-            Websites, online menus, booking forms, Google Business setup, and small tools that make you
-            look professional and easier to reach.
-          </p>
-          <ul class="services-list">
-            <li>Website refresh or one‑page site</li>
-            <li>Digital menu / catalog</li>
-            <li>Online booking & contact forms</li>
-          </ul>
-        </article>
-
-        <article class="services-card">
-          <div class="services-icon"><i class="fa-solid fa-gears"></i></div>
-          <h3>Automation</h3>
-          <p>
-            Stop copying/pasting the same info. We connect your tools so basic admin happens automatically —
-            quietly in the background.
-          </p>
-          <ul class="services-list">
-            <li>Auto confirmations & reminders</li>
-            <li>Customer management/ customer list</li>
-            <li>Link forms → sheets → email</li>
-          </ul>
-        </article>
-
-        <article class="services-card">
-          <div class="services-icon"><i class="fa-solid fa-chart-line"></i></div>
-          <h3>Optimization</h3>
-          <p>
-            Improve what already exists: speed, clarity, mobile layout, and conversions. We measure, adjust, and
-            make your digital tools worth the money.
-          </p>
-          <ul class="services-list">
-            <li>Website speed & UX fixes</li>
-            <li>Local visibility</li>
-            <li>Simple analytics & reporting</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- HOW IT WORKS -->
-    <section class="services-section" id="process">
-      <header class="services-section-header">
-        <h2>How it works</h2>
-        <p>
-          Fast, clear and human — no tech overwhelm.
-        </p>
-      </header>
-
-      <div class="steps-grid">
-        <article class="step-card">
-          <span class="step-number">1</span>
-          <h3>Quick call</h3>
-          <p>We understand your business, your daily routine, and what’s currently annoying you.</p>
-        </article>
-
-        <article class="step-card">
-          <span class="step-number">2</span>
-          <h3>Simple plan</h3>
-          <p>You get a clear proposal: what we’ll build, what it costs, and what the timeline is.</p>
-        </article>
-
-        <article class="step-card">
-          <span class="step-number">3</span>
-          <h3>Build + feedback</h3>
-          <p>We build in small steps and share progress so you can approve and adjust quickly.</p>
-        </article>
-
-        <article class="step-card">
-          <span class="step-number">4</span>
-          <h3>Launch + support</h3>
-          <p>We launch, train you (short + easy), and stay available for fixes and improvements.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- PACKAGES -->
-    <section class="services-section" id="packages">
-      <header class="services-section-header">
-        <h2>Packages</h2>
-        <p>
-          Start small and grow later. (You can rename these and add pricing whenever you’re ready.)
-        </p>
-      </header>
-
-      <div class="pricing-grid">
-        <article class="pricing-card">
-          <h3>Starter</h3>
-          <p class="pricing-tag">Quick wins</p>
-          <ul>
-            <li>One-page website or refresh</li>
-            <li>Contact/booking form</li>
-            <li>Basic SEO setup</li>
-          </ul>
-          <a class="pricing-cta" href="contact.html">Ask for price</a>
-        </article>
-
-        <article class="pricing-card featured">
-          <h3>Workflow</h3>
-          <p class="pricing-tag">Most popular</p>
-          <ul>
-            <li>Website + digital menu/catalog</li>
-            <li>Automated confirmations/reminders</li>
-            <li>Simple dashboard (Google Sheets)</li>
-          </ul>
-          <a class="pricing-cta" href="contact.html">Ask for price</a>
-        </article>
-
-        <article class="pricing-card">
-          <h3>Growth</h3>
-          <p class="pricing-tag">For scaling</p>
-          <ul>
-            <li>Custom automations</li>
-            <li>CRM + customer journeys</li>
-            <li>Monthly optimization & reporting</li>
-          </ul>
-          <a class="pricing-cta" href="contact.html">Ask for price</a>
-        </article>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="services-section services-cta">
-      <div class="services-cta-box">
-        <h2>Ready to make your business easier to run?</h2>
-        <p>
-          Tell us what you do and what you want to improve. We will suggest the simplest solution first.
-        </p>
-        <a class="btn" href="contact.html">Contact us</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-col">
-        <h3>Company</h3>
-        <a href="about-us.html">About us</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact</a>
-      </div>
-
-      <div class="footer-col">
-        <h3>Legal</h3>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms of use</a>
-        <a href="cookies.html">Cookies</a>
-      </div>
-
-      <div class="footer-col">
-        <h3>Resources</h3>
-        <a href="blog.html">Blog</a>
-        <a href="case-studies.html">Case studies</a>
-        <a href="faq.html">FAQs</a>
-      </div>
-
-      <div class="footer-col newsletter">
-        <h3>Join our newsletter</h3>
-        <form class="footer-form" action="#" method="post">
-          <input type="email" placeholder="Enter your email" aria-label="Email" />
-          <button type="submit">Sign up</button>
-        </form>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <span>© 2025 Yuanno Digital. All rights reserved.</span>
-</div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

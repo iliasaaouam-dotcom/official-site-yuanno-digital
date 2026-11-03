@@ -1,81 +1,419 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-521R12LK31"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-521R12LK31');
-</script>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="./style.css">
-  <title>Yuanno Digital</title>
-</head>
-<body>
-  <header>
-    <a href="index.html" class="logo">Yuanno digital</a>
-    <nav>
-      <a href="index.html" class="active">Home</a>
-      <a href="about-us.html">About us</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-  <section class="home">
-    <div class="home-content">
-      <h1><span>Yuanno Digital</span></h1>
-      <div class="typewriter">We help you with <span class="typewriter-text"></span><label for=""></label></div>
-      <script src="script.js"></script>
-      <div class="social-icons">
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dubsar vous aide à comprendre vos courriers, remplir vos formulaires et organiser vos démarches administratives. En français et en néerlandais, à Bruxelles."
+    />
+    <meta name="theme-color" content="#f8f7f3" />
+    <title>Dubsar — Aide aux démarches administratives.</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="alternate" hreflang="fr" href="index.html" />
+    <link rel="alternate" hreflang="nl" href="nl/index.html" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <header class="site-header">
+      <div class="header-inner container">
+        <a href="index.html" class="brand" aria-label="Dubsar — Accueil"
+          ><svg
+            class="brand-mark"
+            viewBox="0 0 32 36"
+            fill="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M6 2h14l7 7v25H6z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M20 2v8h7M11 17h11M11 23h8"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            /></svg
+          ><span>dubsar<span class="brand-dot">.</span></span></a
+        >
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="index.html" aria-current="page">Accueil</a
+          ><a href="services.html">Services</a
+          ><a href="about-us.html">À propos</a
+          ><a href="contact.html">Contact</a>
+        </nav>
+        <nav class="language-nav" aria-label="Choisir la langue">
+          <a
+            href="index.html"
+            lang="fr"
+            hreflang="fr"
+            aria-label="FR — Français"
+            aria-current="true"
+            >FR</a
+          ><span aria-hidden="true">/</span
+          ><a
+            href="nl/index.html"
+            lang="nl"
+            hreflang="nl"
+            aria-label="NL — Nederlands"
+            >NL</a
+          >
+        </nav>
       </div>
-      <a href="contact.html" class="btn">Contact</a>
-    </div>
-    <div class="home-img">
-      <img src="logo.png" alt="">
-    </div>
-  </section>
-  <footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-col">
-      <h3>Company</h3>
-      <a href="about-us.html">About us</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-    </div>
-
-    <div class="footer-col">
-      <h3>Legal</h3>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms of use</a>
-      <a href="cookies.html">Cookies</a>
-    </div>
-
-        <div class="footer-col">
-      <h3>Resources</h3>
-      <a href="blog.html">Blog</a>
-      <a href="case-studies.html">Case studies</a>
-      <a href="faq.html">FAQs</a>
-    </div>
-
-<div class="footer-col newsletter">
-      <h3>Join our newsletter</h3>
-      <form class="footer-form" action="https://formsubmit.co/ilias.aaouam@yuanno.net" method="POST">
-        <input type="email" name="email" placeholder="Enter your email" aria-label="Email" required>
-        <button type="submit">Sign up</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <span>© 2025 Yuanno Digital. All rights reserved.</span>
-</div>
-  </footer>
-</body>
+    </header>
+    <main id="main" tabindex="-1">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>Aide administrative · FR / NL
+          </p>
+          <h1>Vos papiers,<br />l’esprit <em>plus léger.</em></h1>
+          <p class="lead">
+            Un courrier difficile à comprendre ? Un formulaire à remplir ?
+            Dubsar vous aide à y voir clair et à avancer dans vos démarches, à
+            votre rythme.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="contact.html"
+              >Parlons de vos démarches<svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M4 12h15m-5-5 5 5-5 5" /></svg></a
+            ><a class="button button-secondary" href="services.html"
+              >Découvrir les services<svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M4 12h15m-5-5 5 5-5 5" /></svg
+            ></a>
+          </div>
+          <p class="hero-note">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="m5 12 4 4L19 6" /></svg
+            >Un accompagnement en français et en néerlandais.
+          </p>
+        </div>
+        <div class="paper-scene" aria-hidden="true">
+          <span class="scene-caption">dubsar / votre dossier</span>
+          <div class="paper-sheet">
+            <div class="paper-top">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M3 7V5h6l2 2h10v13H3z" />
+                <path d="M3 11h18" /></svg
+              ><span>dubsar</span>
+            </div>
+            <h2>Votre dossier</h2>
+            <p>Une chose à la fois.</p>
+            <div class="paper-rule"></div>
+            <ul>
+              <li>
+                <span class="check"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="m5 12 4 4L19 6" /></svg></span
+                >Comprendre le courrier
+              </li>
+              <li>
+                <span class="check"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="m5 12 4 4L19 6" /></svg></span
+                >Rassembler les documents
+              </li>
+              <li>
+                <span class="check"
+                  ><svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="m5 12 4 4L19 6" /></svg></span
+                >Préparer la prochaine étape
+              </li>
+            </ul>
+            <div class="paper-lines"><span></span><span></span></div>
+            <div class="paper-bottom">
+              <span>FR / NL</span
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 3h7l4 4v14H7z" />
+                <path d="M14 3v5h5M10 12h5m-5 4h5" />
+              </svg>
+            </div>
+          </div>
+          <div class="paper-note">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="m5 12 4 4L19 6" /></svg
+            ><span>On y voit déjà plus clair.</span>
+          </div>
+        </div>
+      </section>
+      <section class="services-preview section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Services</p>
+            <h2>Un peu d’aide fait la différence.</h2>
+            <p>
+              Des démarches du quotidien aux dossiers qui s’accumulent, nous
+              faisons le point ensemble.
+            </p>
+          </div>
+          <a class="text-link" href="services.html"
+            >Tous les services<svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M4 12h15m-5-5 5 5-5 5" /></svg
+          ></a>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M7 3h7l4 4v14H7z" />
+                <path d="M14 3v5h5M10 12h5m-5 4h5" /></svg
+            ></span>
+            <h3>Comprendre un courrier</h3>
+            <p>
+              Nous relisons votre lettre ensemble pour comprendre ce qui est
+              demandé et repérer les prochaines étapes.
+            </p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <rect x="4" y="3" width="16" height="18" rx="2" />
+                <path d="M8 8h1m3 0h4M8 12h1m3 0h4M8 16h1m3 0h4" /></svg
+            ></span>
+            <h3>Remplir un formulaire</h3>
+            <p>
+              Nous vous aidons à réunir les bonnes informations et à compléter
+              votre formulaire, étape par étape.
+            </p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M3 7V5h6l2 2h10v13H3z" />
+                <path d="M3 11h18" /></svg
+            ></span>
+            <h3>Mettre de l’ordre</h3>
+            <p>
+              Nous organisons vos documents et regardons avec vous ce qui manque
+              pour préparer votre dossier.
+            </p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon"
+              ><svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 7v5l3 2" /></svg
+            ></span>
+            <h3>Suivre une démarche</h3>
+            <p>
+              Nous vous aidons à garder une vue d’ensemble des échéances et à
+              préparer vos questions ou vos réponses.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="process-section">
+        <div class="container section">
+          <p class="eyebrow">COMMENT ÇA SE PASSE</p>
+          <h2>Simple, du premier contact<br />à la prochaine étape.</h2>
+          <ol class="process-grid">
+            <li>
+              <span class="step-number">01</span>
+              <h3>Vous nous expliquez.</h3>
+              <p>Un appel ou un e-mail pour décrire brièvement votre besoin.</p>
+            </li>
+            <li>
+              <span class="step-number">02</span>
+              <h3>Nous faisons le point.</h3>
+              <p>
+                Nous regardons quelle aide est possible et convenons ensemble
+                des modalités.
+              </p>
+            </li>
+            <li>
+              <span class="step-number">03</span>
+              <h3>Nous avançons ensemble.</h3>
+              <p>
+                Nous reprenons vos documents et préparons la suite avec vous.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <div class="container">
+        <section class="contact-banner">
+          <div>
+            <h2>Un papier vous préoccupe ?</h2>
+            <p>
+              Pas besoin de tout savoir avant de nous contacter. Commençons par
+              votre question.
+            </p>
+          </div>
+          <a class="button" href="contact.html"
+            >Prendre contact<svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M4 12h15m-5-5 5 5-5 5" /></svg
+          ></a>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a href="index.html" class="brand"
+              ><svg
+                class="brand-mark"
+                viewBox="0 0 32 36"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6 2h14l7 7v25H6z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20 2v8h7M11 17h11M11 23h8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg
+              ><span>dubsar<span class="brand-dot">.</span></span></a
+            >
+            <p>
+              Aide aux démarches administratives.<br />Français & Nederlands
+            </p>
+          </div>
+          <div class="footer-contact">
+            <a href="tel:+32485133441">+32 485 13 34 41</a
+            ><a href="mailto:ilias.aaouam@yuanno.net">ilias.aaouam@yuanno.net</a
+            ><span>Bruxelles · Belgique</span>
+          </div>
+          <nav aria-label="Navigation de pied de page">
+            <a href="services.html">Services</a
+            ><a href="about-us.html">À propos</a
+            ><a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Dubsar. Tous droits réservés.</span
+          ><a href="privacy.html">Confidentialité</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
