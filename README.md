@@ -19,10 +19,10 @@ Check that all three language versions, navigation, local assets, phone links, a
 
 ## Contact
 
-The telephone and email are carried over from the original main-branch site:
+Current contact details displayed across all three language versions:
 
 - +32 485 13 34 41
-- ilias.aaouam@yuanno.net
+- info.contact@dubsar.be
 - Brussels, Belgium
 
 Contact links open the visitor's phone or email application; there is no server-side form or simulated submission. No price, opening hours, response time, registered business details, or new email address has been invented.
